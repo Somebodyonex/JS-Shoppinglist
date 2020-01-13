@@ -1,0 +1,54 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC|Varela+Round&display=swap');
+</style>
+
+body{
+    margin: auto;
+    max-width: 1600px;
+}
+
+h1{
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+}
+
+.stylish{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 1em;
+    font-size: 20px;
+}
+.input-item{
+    width: 200px;
+    height: 15px;
+    margin: 2px;
+}
+.addbutton{
+    margin: 2px;
+    cursor: pointer;
+    border-color: black;
+    background-color: #00a80e;
+    border-width: 0.5px;
+}
+ul{
+    text-align: center;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+}
+
+li {
+   margin-bottom: 10px;
+   list-style-type: none;
+}
+
+li button {
+    font-size: 12px;
+    margin-left: 10px;
+    height: 20px;
+    background-color: #ff0000;
+    cursor: pointer;
+    border-color: black;
+    border-width: 0.5px;
+}
